@@ -4,12 +4,12 @@ import os
 from is_even import is_even
 
 
-class TestIsEven(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_file_exists(self):
-        self.assertTrue(
-            os.path.dirname.isfile("is_even.py"), "is_even.py does not exist"
-        )
+        file_name = self.__module__.split(".")[-1] + ".py"
+        self.assertTrue(os.path.isfile(file_name), f"{file_name} does not exist")
 
+    
     def test_is_even(self):
         self.assertTrue(is_even(2))
         self.assertFalse(is_even(3))
