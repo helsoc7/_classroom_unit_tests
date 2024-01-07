@@ -1,10 +1,5 @@
 import unittest
 import os
-import sys
-from pathlib import Path
-
-parent_dir = Path(__file__).resolve().parents[2]
-sys.path.append(str(parent_dir))
 
 from is_even import is_even
 
