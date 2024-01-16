@@ -1,7 +1,7 @@
 import unittest
 from student_manager import Student, StudentManager
 
-class TestStudentManager(unittest.TestCase):
+class Test(unittest.TestCase):
     def setUp(self):
         self.manager = StudentManager()
         self.manager.add_student(Student("Anna", 20))
