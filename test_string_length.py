@@ -2,7 +2,7 @@ import unittest
 import os
 from string_length import string_length
 
-class TestStringLength(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_string_length(self):
         self.assertEqual(string_length("hello"), 5)
         self.assertEqual(string_length("Python"), 6)
