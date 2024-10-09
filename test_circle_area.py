@@ -3,7 +3,7 @@ import os
 from math import isclose
 from circle_area import circle_area
 
-class TestCircleArea(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_circle_area(self):
         self.assertTrue(isclose(circle_area(3), 28.27, rel_tol=1e-2))
         self.assertEqual(circle_area(0), 0)
