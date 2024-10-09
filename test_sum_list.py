@@ -2,7 +2,7 @@ import unittest
 import os
 from sum_list import sum_list
 
-class TestSumList(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_sum_list(self):
         self.assertEqual(sum_list([1, 2, 3, 4]), 10)
         self.assertEqual(sum_list([-1, -2, -3, -4]), -10)
