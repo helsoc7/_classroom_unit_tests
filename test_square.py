@@ -2,7 +2,7 @@ import unittest
 import os
 from square import square
 
-class TestSquare(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_square(self):
         self.assertEqual(square(3), 9)
         self.assertEqual(square(-2), 4)
