@@ -2,7 +2,7 @@ import unittest
 import os
 from multiply import multiply
 
-class TestMultiply(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_multiply(self):
         self.assertEqual(multiply(3, 4), 12)
         self.assertEqual(multiply(0, 5), 0)
