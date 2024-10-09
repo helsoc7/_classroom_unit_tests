@@ -2,7 +2,7 @@ import unittest
 import os
 from sum_even_numbers import sum_even_numbers
 
-class TestSumEvenNumbers(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_sum_even_numbers(self):
         self.assertEqual(sum_even_numbers([1, 2, 3, 4, 5]), 6)
         self.assertEqual(sum_even_numbers([7, 9, 11]), 0)
