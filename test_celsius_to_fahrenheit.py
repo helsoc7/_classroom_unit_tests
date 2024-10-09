@@ -2,7 +2,7 @@ import unittest
 import os
 from celsius_to_fahrenheit import celsius_to_fahrenheit
 
-class TestCelsiusToFahrenheit(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_celsius_to_fahrenheit(self):
         self.assertEqual(celsius_to_fahrenheit(0), 32)
         self.assertEqual(celsius_to_fahrenheit(100), 212)
