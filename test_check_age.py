@@ -2,7 +2,7 @@ import unittest
 import os
 from check_age import check_age
 
-class TestCheckAge(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_check_age(self):
         self.assertEqual(check_age(20), 'volljährig')
         self.assertEqual(check_age(16), 'minderjährig')
