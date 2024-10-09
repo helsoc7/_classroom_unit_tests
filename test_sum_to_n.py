@@ -2,7 +2,7 @@ import unittest
 import os
 from sum_to_n import sum_to_n
 
-class TestSumToN(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_sum_to_n(self):
         self.assertEqual(sum_to_n(5), 15)
         self.assertEqual(sum_to_n(3), 6)
