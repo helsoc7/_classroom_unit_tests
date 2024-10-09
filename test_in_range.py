@@ -2,7 +2,7 @@ import unittest
 import os
 from in_range import in_range
 
-class TestInRange(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_in_range(self):
         self.assertEqual(in_range(5, 1, 10), 'ja')
         self.assertEqual(in_range(11, 1, 10), 'nein')
