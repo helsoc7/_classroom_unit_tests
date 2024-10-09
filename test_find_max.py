@@ -2,7 +2,7 @@ import unittest
 import os
 from find_max import find_max
 
-class TestFindMax(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_find_max(self):
         self.assertEqual(find_max(3, 5), 5)
         self.assertEqual(find_max(10, 7), 10)
