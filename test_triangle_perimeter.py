@@ -2,7 +2,7 @@ import unittest
 import os
 from triangle_perimeter import triangle_perimeter
 
-class TestTrianglePerimeter(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_triangle_perimeter(self):
         self.assertEqual(triangle_perimeter(3, 4, 5), 12)
         self.assertEqual(triangle_perimeter(1, 1, 1), 3)
