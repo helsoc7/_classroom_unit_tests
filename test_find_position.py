@@ -2,7 +2,7 @@ import unittest
 import os
 from find_position import find_position
 
-class TestFindPosition(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_find_position(self):
         self.assertEqual(find_position([1, 2, 3], 2), 1)
         self.assertEqual(find_position([1, 2, 3], 4), -1)
