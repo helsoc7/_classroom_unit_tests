@@ -2,7 +2,7 @@ import unittest
 import os
 from create_list import create_list
 
-class TestCreateList(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_create_list(self):
         self.assertEqual(create_list(5), [1, 2, 3, 4, 5])
         self.assertEqual(create_list(0), [])
