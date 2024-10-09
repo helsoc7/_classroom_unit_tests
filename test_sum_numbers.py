@@ -2,7 +2,7 @@ import unittest
 import os
 from sum_numbers import sum_numbers
 
-class TestSumNumbers(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_sum_numbers(self):
         self.assertEqual(sum_numbers([1, 2, 3, 4]), 10)
         self.assertEqual(sum_numbers([0, 0, 0]), 0)
