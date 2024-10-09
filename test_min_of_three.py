@@ -2,7 +2,7 @@ import unittest
 import os
 from min_of_three import min_of_three
 
-class TestMinOfThree(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_min_of_three(self):
         self.assertEqual(min_of_three(3, 4, 5), 3)
         self.assertEqual(min_of_three(10, 2, 8), 2)
