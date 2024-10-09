@@ -2,7 +2,7 @@ import unittest
 import os
 from even_numbers import even_numbers
 
-class TestEvenNumbers(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_even_numbers(self):
         self.assertEqual(even_numbers([1, 2, 3, 4, 5]), [2, 4])
         self.assertEqual(even_numbers([7, 9, 11]), [])
