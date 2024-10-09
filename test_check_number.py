@@ -2,7 +2,7 @@ import unittest
 import os
 from check_number import check_number
 
-class TestCheckNumber(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_check_number(self):
         self.assertEqual(check_number(5), 'positiv')
         self.assertEqual(check_number(-3), 'negativ')
