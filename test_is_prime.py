@@ -2,7 +2,7 @@ import unittest
 import os
 from is_prime import is_prime
 
-class TestIsPrime(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_is_prime(self):
         self.assertTrue(is_prime(2))
         self.assertTrue(is_prime(3))
