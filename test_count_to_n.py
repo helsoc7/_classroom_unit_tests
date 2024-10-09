@@ -4,7 +4,7 @@ from io import StringIO
 from count_to_n import count_to_n
 import sys
 
-class TestCountToN(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_count_to_n(self):
         captured_output = StringIO()
         sys.stdout = captured_output
