@@ -2,7 +2,7 @@ import unittest
 import os
 from greet import greet
 
-class TestGreet(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_greet(self):
         self.assertEqual(greet("Max"), "Hallo, Max!")
         self.assertEqual(greet("Anna"), "Hallo, Anna!")
