@@ -2,7 +2,7 @@ import unittest
 import os
 from max_of_two import max_of_two
 
-class TestMaxOfTwo(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_max_of_two(self):
         self.assertEqual(max_of_two(3, 5), 5)
         self.assertEqual(max_of_two(10, 2), 10)
