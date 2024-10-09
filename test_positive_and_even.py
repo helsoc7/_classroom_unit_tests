@@ -2,7 +2,7 @@ import unittest
 import os
 from positive_and_even import positive_and_even
 
-class TestPositiveAndEven(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_positive_and_even(self):
         self.assertEqual(positive_and_even(4), 'ja')
         self.assertEqual(positive_and_even(7), 'nein')
