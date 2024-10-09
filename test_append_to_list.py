@@ -2,7 +2,7 @@ import unittest
 import os
 from append_to_list import append_to_list
 
-class TestAppendToList(unittest.TestCase):
+class Testunittest.TestCase):
     def test_append_to_list(self):
         self.assertEqual(append_to_list([1, 2, 3], 4), [1, 2, 3, 4])
         self.assertEqual(append_to_list([], 1), [1])
