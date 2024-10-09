@@ -2,7 +2,7 @@ import unittest
 import os
 from list_contains import list_contains
 
-class TestListContains(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_list_contains(self):
         self.assertTrue(list_contains([1, 2, 3], 2))
         self.assertFalse(list_contains([1, 2, 3], 4))
