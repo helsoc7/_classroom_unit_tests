@@ -2,7 +2,7 @@ import unittest
 import os
 from remove_from_list import remove_from_list
 
-class TestRemoveFromList(unittest.TestCase):
+class Test(unittest.TestCase):
     def test_remove_from_list(self):
         self.assertEqual(remove_from_list([1, 2, 3], 2), [1, 3])
         self.assertEqual(remove_from_list([1, 2, 3], 4), [1, 2, 3])
